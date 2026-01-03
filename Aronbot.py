@@ -13,8 +13,8 @@ from telegram.ext import (
 if not os.path.exists("vpn_files"):
     os.makedirs("vpn_files")
 
-TOKEN = "8355889346:AAH8AiJzxTFGakF7EGYnp7EdpI7L6vGxY_A"
-adminler = {8165658957}
+TOKEN = "8144561331:AAHz-5ya0LGZD8zp_DD8dBagF0tp174mK20"
+adminler = {8289508688}
 
 kanallar = []         # Adaty agza bolmaly kanallar
 optional_kanallar = []  # goşulmasa-da bolar kanallar
@@ -351,4 +351,5 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, mesaj_handler))
 app.add_handler(MessageHandler(filters.Document.ALL, mesaj_handler))
 
 print("✅ Bot başlady!")
+
 app.run_polling()
