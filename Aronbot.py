@@ -354,3 +354,4 @@ print("✅ Bot başlady!")
 
 app.run_polling()
 
+
