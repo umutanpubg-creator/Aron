@@ -13,8 +13,8 @@ from telegram.ext import (
 if not os.path.exists("vpn_files"):
     os.makedirs("vpn_files")
 
-TOKEN = "8502827164:AAEy9qscLNHSnmK9uGrhFP5_5MWYDGE_pyo"
-adminler = {8165658957 ,8538281367 ,8359722718}
+TOKEN = "8685471249:AAGxweFE7yMFdVKrMSmyHMeQsN1SXowDl00"
+adminler = {8359722718 ,8180188007 ,8165658957}
 
 kanallar = []         # Adaty agza bolmaly kanallar
 optional_kanallar = []  # goşulmasa-da bolar kanallar
